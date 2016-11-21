@@ -12,4 +12,6 @@
     mode: 0644
 
 - name: Install Elasticsearch.
-  yum: pkg=elasticsearch state=installed
+  yum:
+    pkg: elasticsearch-1.7.3-1
+    state: installed
